@@ -490,7 +490,7 @@ public class Administrador extends javax.swing.JFrame {
         
         
         Admin admin = new Admin(user, pass ,carg,"login.txt"); 
-           if(Usuario.getText() == admin.getUsuario() || Contraseña.getText() == admin.getContraseña())
+           if(Usuario.getText() != admin.getUsuario() || Contraseña.getText() != admin.getContraseña())
            {
                admin.guardar();
                 JOptionPane.showMessageDialog(null,"Usuario añadido correctamente.");
