@@ -1,0 +1,4 @@
+b,12,Vendedor
+c,12,Admin
+d,12,Vendedor
+admin,admin,Admin
